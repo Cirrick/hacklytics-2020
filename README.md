@@ -1,7 +1,6 @@
 # hacklytics-2020
 ## A submission to the Hacklytics data science hackathon
-### hacklytics! 
-
+A description of the project
 
 ## Conda
 ### Setting up environment
@@ -14,6 +13,6 @@
 2. Run `conda env update -f environment.yml`
 
 ### Installing new packages and exporting environment
-1. To install new packages, run `conda install [PACKAGENAME]`
-2. To export conda config `conda env export > environment.yml`
-3. Run `conda activate hacklytics`
+1. Run `conda activate hacklytics`
+2. To install new packages, run `conda install [PACKAGENAME]`
+3. To export conda config `conda env export > environment.yml`
