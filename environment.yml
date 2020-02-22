@@ -1,0 +1,12 @@
+name: hacklytics
+channels:
+  - defaults
+dependencies:
+  - python=3
+  - jupyter
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+prefix: /usr/local/Caskroom/miniconda/base/envs/hacklytics
+
