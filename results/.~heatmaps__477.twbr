@@ -335,11 +335,18 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Longitude (generated)]' field-type='quantitative' max='32670644.132611394' min='26148375.98831214' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Latitude (generated)]' field-type='quantitative' max='8214919.5731475633' min='-2030359.95777876' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Longitude (generated)]' field-type='quantitative' max='32688631.752825275' min='26079536.500305057' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Latitude (generated)]' field-type='quantitative' max='7660033.3822485227' min='-2721635.5112285074' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[sum:unsheltered:qk]' max='8000' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[sum:unsheltered:qk]' value='Unsheltered'>
+              <formatted-text>
+                <run>Unsheltered</run>
+              </formatted-text>
+            </format>
           </style-rule>
           <style-rule element='map'>
             <format attr='washout' value='0.0' />
@@ -395,8 +402,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Longitude (generated)]' field-type='quantitative' max='32770616.211441014' min='26034297.046489421' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Latitude (generated)]' field-type='quantitative' max='8210236.1428421019' min='-776013.56538502802' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Longitude (generated)]' field-type='quantitative' max='32665654.221145235' min='26113600.45656693' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Latitude (generated)]' field-type='quantitative' max='7710282.2546950039' min='-1881924.3691682827' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[sum:Prediction:qk]' max='8000.0' type='interpolated' />
@@ -501,7 +508,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run>Difference between 2019 and 2020</run>
+            <run>Predicted Changes in Homeless Population</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -527,8 +534,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Longitude (generated)]' field-type='quantitative' max='31595994.488857426' min='26697107.807242975' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Latitude (generated)]' field-type='quantitative' max='5631184.6592567842' min='1953251.1425017049' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Longitude (generated)]' field-type='quantitative' max='32698259.517444678' min='25615006.163325004' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[Latitude (generated)]' field-type='quantitative' max='6388431.7993992027' min='1070542.9377203048' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' center='-100.0' field='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[sum:Calculation_33565913180819456:qk]' max='400.0' min='-600.0' type='custom-interpolated'>
@@ -600,16 +607,8 @@
               </zone>
             </zone>
             <zone fixed-size='509' h='98000' id='6' is-fixed='true' param='vert' type='layout-flow' w='50900' x='48300' y='1000'>
-              <zone h='89875' id='9' name='Sheet 2' w='50900' x='48300' y='1000'>
+              <zone h='98000' id='9' name='Sheet 2' w='50900' x='48300' y='1000'>
                 <layout-cache minheight='244' minwidth='202' type-h='scalable' type-w='scalable' />
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='8125' id='10' name='Sheet 2' pane-specification-id='0' param='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[sum:Prediction:qk]' type='color' w='50900' x='48300' y='90875'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -626,7 +625,7 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone fixed-size='231' h='12625' id='8' is-fixed='true' name='Sheet 1' pane-specification-id='0' param='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[sum:unsheltered:qk]' single-line='false' type='color' w='23100' x='2700' y='64125' />
+        <zone fixed-size='231' h='12500' id='8' is-fixed='true' name='Sheet 1' pane-specification-id='0' param='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[sum:unsheltered:qk]' show-title='false' single-line='true' type='color' w='26800' x='2700' y='64125' />
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
@@ -654,15 +653,6 @@
                 </zone>
                 <zone fixed-size='280' h='89875' id='9' is-fixed='true' name='Sheet 2' w='50900' x='48300' y='1000'>
                   <layout-cache minheight='244' minwidth='202' type-h='scalable' type-w='scalable' />
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='8125' id='10' name='Sheet 2' pane-specification-id='0' param='[federated.07q6ate1l3rx7z126dp6y1rtn74x].[sum:Prediction:qk]' type='color' w='50900' x='48300' y='90875'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -936,7 +926,7 @@
       <active id='9' />
       <simple-id uuid='{B9C714D3-91EC-4804-89E7-11763416EFB6}' />
     </window>
-    <window class='worksheet' name='Sheet 4'>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -969,14 +959,14 @@
       <active id='-1' />
       <simple-id uuid='{EC8641C2-0E53-4F28-AC62-D4FEC2C4CB7A}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 3'>
+    <window class='dashboard' name='Dashboard 3'>
       <viewpoints>
         <viewpoint name='Sheet 4'>
           <zoom type='entire-view' />
           <default-map-tool-selection tool='1' />
         </viewpoint>
       </viewpoints>
-      <active id='5' />
+      <active id='-1' />
       <simple-id uuid='{22D65EE8-823A-46FB-A936-D136D5ADB0B7}' />
     </window>
   </windows>
