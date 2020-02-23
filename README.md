@@ -15,4 +15,4 @@ A description of the project
 ### Installing new packages and exporting environment
 1. Run `conda activate hacklytics`
 2. To install new packages, run `conda install [PACKAGENAME]`
-3. To export conda config `conda env export > environment.yml`
+3. To export conda config `conda env export --from-history > environment.yml`
