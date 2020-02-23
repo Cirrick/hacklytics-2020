@@ -1,6 +1,6 @@
 # hacklytics-2020
 ## A submission to the Hacklytics data science hackathon
-A description of the project
+The project uses population, economic, and demographic data in order to predict the unsheltered homeless population in regions across the United States.
 
 ## Conda
 ### Setting up environment
